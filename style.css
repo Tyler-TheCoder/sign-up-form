@@ -1,0 +1,148 @@
+@font-face
+{
+font-family: vikings;
+src: url("fonts/Norse-Bold.otf");
+}
+
+body
+{
+    margin: 0;
+    color: white;
+    font-family: 'Courier New', monospace;
+    line-height: 35px;
+}
+
+.panel
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+}
+
+.right-panel
+{
+    background-color: black;
+}
+.left-panel
+{
+    background-image: url("images/purple-background.jpg" );
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#odin-pic
+{
+ height: 100px;
+}
+.odin-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: vikings;
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+
+.text-holder
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* background-color: brown; */
+    padding: 10px 50px 10px;
+}
+
+.sign-up-container
+{
+    /* background-color: blueviolet; */
+    padding:10px 40px 10px;
+    border-radius: 18px;
+    margin: 10px;
+
+}
+
+
+.sign-up-form
+{
+    /* background-color: rgb(75, 75, 75); */
+    padding: 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item-column    
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+
+#btn-container
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#account-btn
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 50vw;
+    border: solid;
+    border-radius: 25px;
+    border-color: white;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#account-btn:hover
+{
+    color: black;
+    background-color: purple;
+    border-color: black;
+}
+
+input
+{
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(104, 0, 104);
+    padding-left:10px ;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+input:focus {
+    border-bottom-width: 2px;
+    border-color: rgb(167, 0, 167);
+}
+input:invalid
+{
+    border-color: red;
+}
+
+a:hover
+{
+    color: red;
+    text-decoration: none;
+}
