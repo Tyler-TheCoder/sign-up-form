@@ -51,7 +51,7 @@ body
 
 .text-holder
 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     /* background-color: brown; */
     padding: 10px 50px 10px;
@@ -141,8 +141,18 @@ input:invalid
     border-color: red;
 }
 
+a
+{
+color:purple;
+}
 a:hover
 {
     color: red;
     text-decoration: none;
 }
+a:visited
+{
+    color:green;
+}
+
+
