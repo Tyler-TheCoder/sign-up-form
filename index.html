@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Form</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="this is a sign up page">
+  <meta property="og:[description]" content="this is a sign up page">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign up Page</title>
 </head>
+
 <body>
-    
+  <div class="panel">
+    <div class="left-panel">
+      <div class="odin-container">
+        <img src="images/odin-lined.png" alt="odin logo" id="odin-pic">
+        <p id="odin-txt">ODIN</p>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="text-holder">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize
+          your deepest dreams.
+          Sign up now to get started <br><br><i>you know you want it</i></p>
+      </div>
+      <div class="sign-up-container">
+        <h2>Let's do this </h2>
+        <form class="sign-up-form">
+
+          <div class="item-row">
+            <div class="item-column">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div class="item-column">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+          </div>
+
+          <div class="item-row">
+            <div class="item-column">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="item-column">
+              <label for="number">Phone number</label>
+              <input type="number" name="number" id="number" />
+            </div>
+          </div>
+
+          <div class="item-row">
+            <div class="item-column">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" minlength="8"/>
+            </div>
+            <div class="item-column">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" name="password" id="confirm-password" minlength="8"/>
+            </div>
+          </div>
+        </form>
+        <div id="btn-container"><button type="submit" id="account-btn">Create Account !</button> </div>
+        <p>You have an account
+          <a
+            href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form/project_submissions">
+            login</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
 </body>
+
 </html>
